@@ -6,6 +6,7 @@
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -26,13 +27,36 @@
     <section id="home">
         <div class="container">
             <div class="intro">
-                <div class="profile-picture">
+                <div class="profile-card">
                     <img src="images/jether.jpg" alt="Profile Picture">
-                </div>
+                </div>                
                 <div class="intro-text">
-                    <h2>Im Jether Masidong!</h2>
-                    <h3>Web Developer</h3>
+                    <h2>Jether Masidong</h2>
+                    <h3 id="home">
+                        <div class="word-container">
+                            <span>Web Developer</span>
+                            <span>Video Editor</span>
+                            <span>Student</span>
+                            <span>Programmer</span>
+                            <span>Designer</span>
+                        </div>
+                    </h3>                    
                     <a href="#" class="btn">Download CV</a>
+                    <!-- Social Media Buttons (Near Profile) -->
+                    <div class="social-links">
+                        <a href="https://facebook.com/yourprofile" target="_blank" class="social-btn">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com/yourprofile" target="_blank" class="social-btn">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/yourprofile" target="_blank" class="social-btn">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-btn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>  
@@ -41,8 +65,36 @@
     <section id="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>Im Jether Masidong, an aspiring IT student with a passion for technology and innovation. Currently pursuing a degree in Information Technology, I specialize in Web Technology and have developed a solid foundation in programming languages such as Python, Java, and C#. I am dedicated to continuously learning and exploring new trends in IT to stay ahead in the ever-evolving tech world. Whether it's developing code, setting up networks, or working on real-world projects, I am ready to contribute and be part of our rapidly advancing world!.</p>
+            <p>I'm Jether Masidong, an aspiring IT student with a passion for technology and innovation. Currently pursuing a degree in Information Technology, I specialize in Web Technology and have developed a solid foundation in programming languages such as Python, Java, and C#. I am dedicated to continuously learning and exploring new trends in IT to stay ahead in the ever-evolving tech world. Whether it's developing code, setting up networks, or working on real-world projects, I am ready to contribute and be part of our rapidly advancing world!.</p>
         </div>
+        <div id="skills">
+            <h3>My Skills</h3>
+            <div class="skill">
+                <label for="html">HTML</label>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 50%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label for="css">CSS</label>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 50%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label for="javascript">JavaScript</label>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 30%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label for="python">Python</label>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 70%;"></div>
+                </div>
+            </div>
+        </div>
+        
     </section>
 
     <section id="services">
@@ -70,12 +122,12 @@
 
     <section id="projects">
         <div class="container">
-            <h2>Latest Projects</h2>
+            <h2>Simple Projects</h2>
             <div class="project-gallery">
-                <img src="project1.jpg" alt="Project 1">
-                <img src="project2.jpg" alt="Project 2">
-                <img src="project3.jpg" alt="Project 3">
-                <img src="project4.jpg" alt="Project 4">
+                <img src="images/pinta.png" alt="Project 1">
+                <img src="images/hanap.png" alt="Project 2">
+                <img src="images/port.png" alt="Project 3">
+                <img src="images/skill.png" alt="Project 4">
             </div>
         </div>
     </section>
@@ -96,7 +148,23 @@
     <footer>
         <div class="container">
             <p>&copy; 2025 Portfolio. All Rights Reserved.</p>
+            <!-- Social Media Buttons in Footer -->
+            <div class="social-links">
+                <a href="https://www.facebook.com/jetherjet.masidong" target="_blank" class="social-btn">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/jetheeerr/" target="_blank" class="social-btn">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://x.com/parplejett" target="_blank" class="social-btn">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jether-masidong-734181293/" target="_blank" class="social-btn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
         </div>
     </footer>
+
 </body>
 </html>
